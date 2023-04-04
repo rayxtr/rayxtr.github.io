@@ -1,6 +1,6 @@
 let resButton = document.getElementById("resume-button-2");
 resButton.addEventListener("click", ()=>{
-    // window.open("https://drive.google.com/file/d/1aXEimS1Tyv45SANM9-KKgpjXxlmEOf-d/view?usp=share_link", "_blank");
+     window.open("https://drive.google.com/file/d/1SCDA_4QBPMiAockXL-_3HkHgZoux5M_R/view?usp=sharing", "_blank");
 })
 
 
