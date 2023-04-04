@@ -1,0 +1,120 @@
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+#home{
+    padding: 300px 350px 0 140px;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-image: url(/files/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#hi{
+    font-size: 27px;
+    line-height: 2;  
+}
+#user-detail-name{
+    font-size: 60px;
+    font-weight: bold;
+}
+#user-detail{
+    font-size: 30px;
+    margin: 8px 0 20px;
+}
+.typing> span{
+    color: rgb(17, 168, 173);
+}
+.typing{
+    color: rgb(229, 255, 80);
+    border-right: solid rgb(93, 215, 219);
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: typing 3s steps(30,end)  infinite forwards;
+}
+
+@keyframes typing{
+    0%{
+        width: 90px;
+    }
+    50%{
+        width: 440px;
+    }
+    
+}
+#home-left{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 100%;
+    padding-top: 100px;
+}
+#home-right{
+    float: right;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 100%;
+}
+.home-img{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid green; */
+    bottom: 0;
+    border-radius: 50%;
+}
+#resume-button-2{
+    
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(83, 187, 235);
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#resume-button-2:hover{
+    background-color: rgb(86, 255, 80);
+    transition: all 0.4s ease 0s;
+}
+
+#githubs{
+    width: 100%;
+    height: auto;
+}
+#githubs h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+    color: rgb(19, 197, 182);
+}
+.github-list{
+    /* border: 2px solid; */
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:  20px;
+}
+.github-list div{
+    width: 100%;
+    /* border: 2px solid red; */
+    
+    border-radius: 20px;
+}
+.github-list div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
