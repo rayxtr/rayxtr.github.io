@@ -2,6 +2,10 @@ let resButton = document.getElementById("resume-button-2");
 resButton.addEventListener("click", ()=>{
      window.open("https://drive.google.com/file/d/1SCDA_4QBPMiAockXL-_3HkHgZoux5M_R/view?usp=sharing", "_blank");
 })
+let resButton2 = document.getElementById("resume-button-1");
+resButton2.addEventListener("click", ()=>{
+     window.open("https://drive.google.com/file/d/1SCDA_4QBPMiAockXL-_3HkHgZoux5M_R/view?usp=sharing", "_blank");
+})
 
 
 var navbar = document.getElementById('nav-menu');
